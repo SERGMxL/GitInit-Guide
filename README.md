@@ -21,19 +21,19 @@ Antes de empezar, debes configurar tu identidad en Git. Estos comandos asocian t
 ```bash
 git config --global user.name "Tu Nombre"
 git config --global user.email "tu_correo@ejemplo.com"
+
+
 Si usas Visual Studio Code como tu editor, puedes configurarlo para que se abra automáticamente cuando Git lo necesite (por ejemplo, para escribir un mensaje de commit).
-
-
 git config --global core.editor "code --wait"
 Iniciar el repositorio local
+
+
 Navega hasta el directorio de tu proyecto y usa el siguiente comando para inicializar un nuevo repositorio de Git. Esto creará una carpeta oculta llamada .git.
-
-
 cd /ruta/a/tu/directorio
 git init
 Agregar y hacer el primer commit
+
+
 Después de crear o modificar tus archivos, agrégalos al área de staging y luego realiza el primer commit.
-
-
 git add .
 git commit -m "Primer commit: inicialización del proyecto"
